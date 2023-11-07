@@ -12,11 +12,13 @@
     }
     &__perfil{
         & img{
-            width: 150px;
+            width: 75px;
+            max-width: 100%;
+            height: auto;
         }
 
-        width: 20px;
-        height: 20px;
+        width: 100px;
+        height: 100px;
         background: linear-gradient(180deg,
                     hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
                     hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
