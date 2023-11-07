@@ -169,7 +169,7 @@ body.dark-theme {
 }
 
 .profile__perfil img {
-  width: 75px;
+  width: 150%;
 }
 
 .profile__border {
@@ -184,7 +184,7 @@ body.dark-theme {
 }
 
 .profile__name {
-  font-size: var(--h2-font-size);
+  font-size: var(--h1-font-size);
 }
 
 .profile__profession {
