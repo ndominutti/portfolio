@@ -13,7 +13,7 @@
     &__perfil{
         & img{
             width: auto;
-            max-width: 100%;
+            max-width: 150%;
             height: auto;
         }
 
@@ -37,7 +37,7 @@
         border-radius: 50%;
         display: grid;
         place-items: center;
-        margin-bottom: 0rem;
+        margin-bottom: .75rem;
     }
     &__name{
         font-size: var(--h2-font-size);
