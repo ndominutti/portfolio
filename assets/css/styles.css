@@ -61,7 +61,7 @@ body {
 
 h1, h2, h3 {
   color: var(--title-color);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 ul {
@@ -184,7 +184,7 @@ body.dark-theme {
 }
 
 .profile__name {
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
 }
 
 .profile__profession {
@@ -201,7 +201,7 @@ body.dark-theme {
 }
 
 .profile__social-link {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: var(--title-color);
   transition: .3s;
 }
