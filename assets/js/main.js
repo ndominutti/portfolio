@@ -38,6 +38,10 @@ if (selectedTheme) {
   themeButton.classList[selectedIcon === 'ri-moon-line' ? 'add' : 'remove'](iconTheme)
 }
 
+// Initially set dark theme as the default
+document.documentElement.setAttribute('data-theme', darkTheme);
+themeButton.className = iconTheme;
+
 // Activate / deactivate the theme manually with the button
 themeButton.addEventListener('click', () => {
     // Add or remove the dark / icon theme
