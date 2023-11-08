@@ -73,7 +73,7 @@ a {
 }
 
 img {
-  max-width: 120%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -169,7 +169,7 @@ body.dark-theme {
 }
 
 .profile__perfil img {
-  width: 120%;
+  width: 100%;
 }
 
 .profile__border {
@@ -512,7 +512,7 @@ body.dark-theme {
     height: 100px;
   }
   .profile__perfil img {
-    width: 100px;
+    width: 75px;
   }
   .profile__profession {
     margin-bottom: 1.5rem;
