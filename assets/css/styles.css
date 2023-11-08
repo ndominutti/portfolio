@@ -73,8 +73,8 @@ a {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 75px;
+  height: 75px;
 }
 
 /*=============== THEME ===============*/
@@ -169,7 +169,7 @@ body.dark-theme {
 }
 
 .profile__perfil img {
-  width: 100%;
+  width: 75%;
 }
 
 .profile__border {
